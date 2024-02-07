@@ -1,8 +1,7 @@
 from simply_calculator import*
 
 while True:
-    arithmetic_expression = input("Enter arithmetic expression (example: '2 * 4 - 5 / 6') or '!' to exit calculator: ")
-    
+    arithmetic_expression = input("Enter arithmetic expression (example: '2 * 4 - 5 / 6') or '!' to exit calculator: ")    
     if arithmetic_expression == '!' :
         print("Calculator Exited")
         break
